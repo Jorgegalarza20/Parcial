@@ -11,14 +11,15 @@
   <h2>Calculadora de Suma</h2>
 
   <label for="numInput">Ingresa 4 números:</label>
-  <input type="text" id="numInput" maxlength="1" oninput="validateInput()">
+  <input type="number" id="numInput" maxlength="1" oninput="validateInput()">
   <button onclick="agregarNumero()">Agregar Número</button>
 
-  <p id="numerosIngresados"></p>
+  <ul id="numerosIngresados"></ul>
   <button onclick="sumar()">Calcular Suma</button>
   <p id="resultado"></p>
   <p id="maximo"></p>
   <p id="minimo"></p>
+  <p id="promedio"></p>
 
  <script src="index.js"></script>
 </body>
